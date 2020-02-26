@@ -4,15 +4,17 @@ import org.openqa.selenium.By;
 
 
 public class HomePage extends Utils {
-
+    //click on Registen on home page
     private By _registerLink = By.xpath("//a[contains(., 'Register')]");
 
-
-    public void clickOnRegisterButton(){
+    //click on register
+    public void clickOnRegisterButton() {
         clickOnElement(_registerLink);
 
 
 
+        }
+
     }
 
-}
+

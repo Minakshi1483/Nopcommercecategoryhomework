@@ -8,6 +8,7 @@ public class RegistrationResultPage extends Utils{
     String expected = "Your registration completed";
 
     public void verifyUserSeeRegistrationSuccessMessage(){
+        //enter assert method
         assertURL("registerresult");
         assertTextMessage("Registration not successful...",expected, _registersuccessMessage);
     }

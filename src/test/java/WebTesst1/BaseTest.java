@@ -14,6 +14,7 @@ public class BaseTest extends Utils {
     @AfterTest
     public void closeBrowser(){
 
-        browserSelector.closeBrowser();
+     //   browserSelector.closeBrowser();
+        BrowserSelector browserSelector = new BrowserSelector();
     }
 }
