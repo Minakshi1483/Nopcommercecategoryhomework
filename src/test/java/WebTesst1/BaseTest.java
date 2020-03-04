@@ -12,9 +12,7 @@ public class BaseTest extends Utils {
         browserSelector.setUpBrowser();
     }
     @AfterTest
-    public void closeBrowser(){
+    public void closeBrowser(){ browserSelector.closeBrowser();}
 
-     //   browserSelector.closeBrowser();
-        BrowserSelector browserSelector = new BrowserSelector();
-    }
+
 }
